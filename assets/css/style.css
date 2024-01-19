@@ -1,0 +1,53 @@
+/* GENERAL STYLING BEGIN*/
+/*     DO NOT EDIT      */
+
+/* Fonts */
+/* font-family: "Open Sans", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
+
+/* Colors */
+:root {
+  /* PRIMARY */
+  --pink: hsl(322, 100%, 66%);
+  /* NEUTRAL */
+  --white: hsl(0, 0%, 100%);
+  --very-pale-cyan: hsl(193, 100%, 96%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-size: calc((18 / 16) * 1rem);
+  font-weight: 400;
+  color: var(--very-dark-cyan);
+  background-color: var(--white);
+}
+
+/*     DO NOT EDIT     */
+/* GENERAL STYLING END */
+/* ******************* */
+/* SECTION 1 BEGIN*/
+
+/* Section 1 CSS here (DELETE THIS LINE) */
+
+/* SECTION 1 END*/
+/* ******************* */
+/* SECTION 2 BEGIN*/
+
+/* Section 2 CSS here (DELETE THIS LINE) */
+
+/* SECTION 2 END*/
+/* ******************* */
+/* SECTION 3 BEGIN*/
+
+/* Section 3 CSS here (DELETE THIS LINE) */
+
+/* SECTION 3 END*/

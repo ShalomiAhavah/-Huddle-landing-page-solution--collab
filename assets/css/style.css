@@ -45,7 +45,6 @@ body {
 .section-two {
   width: 100vw;
   padding: 0 9vw;
-  text-align: center;
 }
 
 .section-two article {
@@ -54,9 +53,21 @@ body {
   margin: 5vh auto;
 }
 
+.section-two article section {
+  height: fit-content;
+  display: grid;
+  place-content: center;
+}
+
 .section-two img {
   width: 80vw;
   margin: 1vh auto;
+}
+
+.section-two article section h2 {
+  width: 100%;
+  margin: 3vh auto 0.5vh auto;
+  font-size: 1.2rem;
 }
 
 .section-two article section p {
@@ -65,10 +76,6 @@ body {
   color: var(--grayish-blue);
 }
 
-.section-two article section h2 {
-  margin: 3vh auto 0.5vh auto;
-  font-size: 1.2rem;
-}
 /* Section 2 CSS here (DELETE THIS LINE) */
 
 /* SECTION 2 END*/

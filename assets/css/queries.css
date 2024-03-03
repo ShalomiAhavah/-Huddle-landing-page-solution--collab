@@ -49,6 +49,49 @@
   /* SECTION 1 END*/
   /* ******************* */
   /* SECTION 2 BEGIN*/
+  .section-two {
+    text-align: left;
+  }
+  .section-two article {
+    height: 30vh;
+    padding: 20vh 0vw 20vh 7vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0.1px #dddddd;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .section-two section {
+    width: 37vw;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+
+  .section-two img {
+    width: 25vw;
+    object-fit: contain;
+    height: auto;
+    order: 3;
+  }
+  .section-two article section p {
+    height: 10vh;
+    margin: auto;
+    font-size: 0.85rem;
+  }
+
+  .section-two article section h2 {
+    font-size: 1.2rem;
+    margin: 1vh 0;
+    text-align: left;
+  }
+
+  .section-two article:nth-child(2) {
+    padding: 20vh 7vw 20vh 0;
+  }
+  .section-two article:nth-child(2) img {
+    order: 1;
+  }
 
   /* SECTION 2 END*/
   /* ******************* */

@@ -93,6 +93,21 @@
     order: 1;
   }
 
+  .call-to-action {
+    width: 60vw;
+    height: 18vw;
+  }
+
+  .call-to-action h2 {
+    font-size: 1.2rem;
+  }
+
+  .call-to-action button {
+    width: 35vw;
+    height: 6vw;
+    font-size: 1rem;
+    box-shadow: -4px 4px var(--shadow);
+  }
   /* SECTION 2 END*/
   /* ******************* */
   /* SECTION 3 BEGIN*/
@@ -156,13 +171,19 @@
   /* ******************* */
   /* SECTION 2 BEGIN*/
 
-  /* SECTION 2 END*/
-  /* ******************* */
-  /* SECTION 3 BEGIN*/
+  .call-to-action button {
+    width: 35vw;
+    height: 4vw;
+    font-size: 1rem;
+    box-shadow: -4px 4px var(--shadow);
+    /* SECTION 2 END*/
+    /* ******************* */
+    /* SECTION 3 BEGIN*/
 
-  /* SECTION 3 END*/
-  /* ******************* */
-  /* SECTION 4 BEGIN*/
+    /* SECTION 3 END*/
+    /* ******************* */
+    /* SECTION 4 BEGIN*/
 
-  /* SECTION 4 END*/
+    /* SECTION 4 END*/
+  }
 }

@@ -80,8 +80,8 @@ body {
 }
 
 .call-to-action {
-  width: 84vw;
-  height: 20vw;
+  width: 84%;
+  height: 20vh;
   margin: 0 auto;
   background: var(--white);
   display: flex;
@@ -90,6 +90,7 @@ body {
   text-align: center;
   font-family: "Poppins", sans-serif;
   border-radius: 12px;
+  box-shadow: 0 0 5px rgba(128, 128, 128, 0.601);
 }
 
 .call-to-action h2 {

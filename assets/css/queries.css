@@ -115,29 +115,6 @@
     padding: 0.75em 4em;
   }
 
-  /* SECTION 1 END*/
-  /* ******************* */
-  /* SECTION 2 BEGIN*/
-
-  .call-to-action {
-    width: 60vw;
-    height: 18vw;
-  }
-
-  .call-to-action h2 {
-    font-size: 1.2rem;
-  }
-
-  .call-to-action button {
-    width: 35vw;
-    height: 6vw;
-    font-size: 1rem;
-    box-shadow: -4px 4px var(--shadow);
-  }
-  /* SECTION 2 END*/
-  /* ******************* */
-  /* SECTION 3 BEGIN*/
-
   .text-side {
     max-width: 500px;
     padding: 0;
@@ -168,50 +145,22 @@
   /* SECTION 1 END*/
   /* ******************* */
   /* SECTION 2 BEGIN*/
-  .section-two {
-    text-align: left;
-  }
-  .section-two article {
-    height: 30vh;
-    padding: 20vh 0vw 20vh 7vw;
-    border-radius: 10px;
-    box-shadow: 0px 0px 2px 0.1px #dddddd;
-    flex-direction: row;
-    align-items: center;
+
+  .call-to-action {
+    width: 60vw;
+    height: 18vw;
   }
 
-  .section-two section {
-    width: 37vw;
-    display: flex;
-    flex-direction: column;
-    order: 2;
-  }
-
-  .section-two img {
-    width: 25vw;
-    object-fit: contain;
-    height: auto;
-    order: 3;
-  }
-  .section-two article section p {
-    height: 10vh;
-    margin: auto;
-    font-size: 0.85rem;
-  }
-
-  .section-two article section h2 {
+  .call-to-action h2 {
     font-size: 1.2rem;
-    margin: 1vh 0;
-    text-align: left;
   }
 
-  .section-two article:nth-child(2) {
-    padding: 20vh 7vw 20vh 0;
+  .call-to-action button {
+    width: 35vw;
+    height: 6vw;
+    font-size: 1rem;
+    box-shadow: -4px 4px var(--shadow);
   }
-  .section-two article:nth-child(2) img {
-    order: 1;
-  }
-
   /* SECTION 2 END*/
   /* ******************* */
   /* SECTION 3 BEGIN*/
@@ -236,6 +185,44 @@
   /* SECTION 1 END*/
   /* ******************* */
   /* SECTION 2 BEGIN*/
+
+  .section-two {
+    padding: 0 2rem;
+  }
+  .section-two article {
+    text-align: left;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section-two section {
+    flex-basis: 30rem;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+
+  .section-two img {
+    width: 25rem;
+    object-fit: contain;
+    height: auto;
+    order: 3;
+  }
+  .section-two article section p {
+    margin: auto;
+    font-size: 0.85rem;
+  }
+
+  .section-two article section h2 {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .section-two article:nth-child(2) img {
+    order: 1;
+  }
 
   /* SECTION 2 END*/
   /* ******************* */

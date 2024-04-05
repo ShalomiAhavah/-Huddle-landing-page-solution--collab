@@ -91,7 +91,7 @@
     }
 
     .section1__wrapper {
-        width: calc(min(1200px, 85vw));
+        max-width: 1200px;
         margin-inline: auto;
         padding: 2em 0;
     }
@@ -163,7 +163,7 @@
     }
 
     .section-two {
-        width: calc(min(1200px, 85vw));
+        max-width: 1200px;
         margin-inline: auto;
     }
     /* SECTION 2 END*/

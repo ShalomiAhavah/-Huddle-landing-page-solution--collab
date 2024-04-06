@@ -187,11 +187,12 @@
   /* ******************* */
   /* SECTION 2 BEGIN*/
 
-  .section-two {
+  .section-two-grid {
     /* padding: 0 2rem; */
     display: grid;
     gap: 2em;
   }
+
   .section-two article {
     text-align: left;
 

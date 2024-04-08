@@ -147,7 +147,7 @@
   /* SECTION 2 BEGIN*/
 
   .call-to-action {
-    width: 60vw;
+    width: 50vw;
     height: 18vw;
   }
 
@@ -165,6 +165,11 @@
   .section-two {
     max-width: 1200px;
     margin-inline: auto;
+  }
+
+  .section-two img {
+    width: 60vw;
+    margin: 1vh auto;
   }
   /* SECTION 2 END*/
   /* ******************* */

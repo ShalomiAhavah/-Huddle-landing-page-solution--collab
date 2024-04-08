@@ -165,8 +165,8 @@ header .header-wrapper {
 }
 
 .call-to-action {
-  width: 90vw;
-  height: 45vw;
+  width: 94vw;
+  height: 43vw;
   margin: 0 auto -8vh auto;
   position: relative;
   background: var(--white);
@@ -184,7 +184,7 @@ header .header-wrapper {
 }
 
 .call-to-action button {
-  width: 50vw;
+  width: 60vw;
   height: 12vw;
   margin: 0 auto;
   border: none;

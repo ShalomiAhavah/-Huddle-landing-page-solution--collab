@@ -17,6 +17,7 @@
   /*Shadow*/
   --shadow: hsla(203, 6%, 59%, 0.255);
   --shadow-dark: hsla(209, 11%, 55%, 0.458);
+  --cta-shadow: hsla(193, 86%, 11%, 0.184);
 }
 
 * {
@@ -137,6 +138,7 @@ header .header-wrapper {
   display: flex;
   flex-direction: column;
   margin: 5vh auto;
+  text-align: center;
 }
 
 .section-two article section {
@@ -152,7 +154,7 @@ header .header-wrapper {
 }
 
 .section-two article section h2 {
-  margin-bottom: 1rem;
+  margin: 1rem auto;
   font-size: 1.2rem;
 }
 
@@ -165,7 +167,8 @@ header .header-wrapper {
 .call-to-action {
   width: 90vw;
   height: 45vw;
-  margin: 18vh auto;
+  margin: 0 auto -8vh auto;
+  position: relative;
   background: var(--white);
   display: flex;
   flex-direction: column;
@@ -173,7 +176,7 @@ header .header-wrapper {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   border-radius: 12px;
-  box-shadow: 0 0 5px 1.5px rgba(237, 237, 237, 0.679);
+  box-shadow: 0 0 3px var(--cta-shadow);
 }
 
 .call-to-action h2 {

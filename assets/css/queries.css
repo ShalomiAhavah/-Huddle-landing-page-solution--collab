@@ -204,7 +204,6 @@
 
   .section-two article {
     text-align: left;
-
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -231,6 +230,7 @@
   .section-two article section h2 {
     font-size: 1.2rem;
     text-align: left;
+    margin: 1rem 0;
   }
 
   .section-two article:nth-child(2) img {
@@ -261,7 +261,9 @@
   /* SECTION 1 END*/
   /* ******************* */
   /* SECTION 2 BEGIN*/
-
+  .section-two article section {
+    padding: 0 2%;
+  }
   /* SECTION 2 END*/
   /* ******************* */
   /* SECTION 3 BEGIN*/
